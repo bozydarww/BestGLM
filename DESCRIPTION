@@ -1,0 +1,16 @@
+Package: BestGLM
+Type: Package
+Title: GLM Model Selection for Hospital Length of Stay Prediction
+Version: 0.1.0
+Author: BW
+Maintainer: The package maintainer <bozydarww1@gmail.com>
+Description: This package implements functions to find the best GLM model for predicting the length of stay of a patient in the hospital based on different comorbidities.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+DataRaw: data
+VignetteBuilder: knitr
+RoxygenNote: 7.3.1
+Imports:
+    MASS,
+    knitr

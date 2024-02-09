@@ -1,0 +1,49 @@
+---
+title: "Generating Mock Data"
+author: "BW"
+date: "2024-02-09"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Introduction
+
+This vignette provides instructions for generating mock data for testing purposes using the `BestGLM` package.
+
+# Generating Mock Data
+
+To generate mock data, follow these steps:
+
+1. Load the `BestGLM` package:
+
+```r
+library(BestGLM)
+```
+
+2. Run the generate_data() function to generate the mock data. This function will create a CSV file named hospital_data.csv in the current working directory.
+```r
+generate_data()
+```
+
+# Loading Mock Data
+Once the mock data has been generated, you can load it into R using the following code:
+```r
+data_path <- system.file("data", "hospital_data.csv", package = "BestGLM")
+hospital_data <- read.csv(data_path)
+```
+
+Now you can use the hospital_data data frame for testing and exploring the functionality of your package.
+
+# Conclusion
+In this vignette, we have demonstrated how to generate and load mock data for testing purposes using the BestGLM package.
+
+To include this vignette in your package, save the content as an R Markdown file named generate_data_vignette.Rmd in the vignettes directory of your package. After including the vignette, update the DESCRIPTION file of your package to include the vignette, as mentioned earlier. Then, build and install your package to make the vignette accessible to users.
+With these adjustments, your vignette is ready to be included in your package and shared with users.
+
+
+
+
+
+
