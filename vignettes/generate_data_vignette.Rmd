@@ -39,9 +39,6 @@ Now you can use the hospital_data data frame for testing and exploring the funct
 # Conclusion
 In this vignette, we have demonstrated how to generate and load mock data for testing purposes using the BestGLM package.
 
-To include this vignette in your package, save the content as an R Markdown file named generate_data_vignette.Rmd in the vignettes directory of your package. After including the vignette, update the DESCRIPTION file of your package to include the vignette, as mentioned earlier. Then, build and install your package to make the vignette accessible to users.
-With these adjustments, your vignette is ready to be included in your package and shared with users.
-
 
 
 

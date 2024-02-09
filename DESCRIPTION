@@ -10,6 +10,7 @@ Encoding: UTF-8
 LazyData: true
 DataRaw: data
 VignetteBuilder: knitr
+Vignette: generate_data_vigentte
 RoxygenNote: 7.3.1
 Imports:
     MASS,
